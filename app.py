@@ -1,4 +1,7 @@
 import mysql.connector 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_db():
   return mysql.connector.connect(
